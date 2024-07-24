@@ -24,7 +24,7 @@ fs.mkdirSync(dir);
 // Replace HYPERCLIP_DESKTOP_KEY with the key you got from hyperclip desktop app.
 // https://github.com/supersuryaansh/hyperclip-desktop
 const swarm = new Hyperswarm()
-const core = new Hypercore('./tmp/hyperclip/', "553e00c59b135de2a128268a850e3c3000fc723483825c2f859421a9413831cc")
+const core = new Hypercore('./tmp/hyperclip/', "HYPERCLIP_DESKTOP_KEY")
 
 // Create RPC
 const rpc = new BareKit.RPC((req) => {
