@@ -11,7 +11,7 @@ You need [Hyperclip-desktop](https://github.com/supersuryaansh/hyperclip-desktop
  2. Update the submodules `git submodule update --init --recursive `
  2. Run `npm install -g bare-dev && npm i `
  3. Configure build `bare-dev configure --debug --platform ios --arch arm64 --simulator`
- 4. Replace HYPERCLIP_DESKTOP_KEY in app.js with the key you get from hyperclip-desktop 
+ 4. Replace `HYPERCLIP_DESKTOP_KEY` in app.js with the key you get from hyperclip-desktop 
  5. Build the App `bare-dev build --debug` 
  6. Run the application `bare-dev ios run --attach`
 ## License  
