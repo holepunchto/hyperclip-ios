@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "hyperclip",
+  "type": "module",
   "description": "Example of embedding Bare in an iOS application",
   "scripts": {
     "test": "standard"
