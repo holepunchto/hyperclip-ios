@@ -25,7 +25,7 @@ fs.mkdirSync(dir);
 
 // Initialise Hyperswarm and Hypercore
 // Replace HYPERCLIP_DESKTOP_KEY with the key you got from hyperclip desktop app.
-// https://github.com/supersuryaansh/hyperclip-desktop
+// https://github.com/holepunchto/hyperclip-desktop
 const swarm = new Hyperswarm()
 const core = new Hypercore('./tmp/hyperclip/', "HYPERCLIP_DESKTOP_KEY")
 
@@ -50,7 +50,7 @@ await core.update()
 let position = core.length
 console.log(`Skipping ${core.length} earlier blocks...`)
 
-// Skip earlier block so that we have the latest clipboard data
+// Listen for new live data
 for await (const block of core.createReadStream({
     start: 0,
     live: true

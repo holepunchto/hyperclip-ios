@@ -3,7 +3,7 @@
   
 Hyperclip is an example of embedding Bare in an iOS application using <https://github.com/holepunchto/bare-kit>.  
   
-You need [Hyperclip-desktop](https://github.com/supersuryaansh/hyperclip-desktop) to send clipboard content from Desktop to iOS.  
+You need [Hyperclip-desktop](https://github.com/holepunchto/hyperclip-desktop) to send clipboard content from Desktop to iOS.  
   
 # Setup Instructions  
 
